@@ -95,6 +95,10 @@ export default {
       },
       dropShadow: {
         gold: "0 4px 8px rgba(212, 175, 55, 0.5)",
+        "gold-lg": "0 8px 16px rgba(212, 175, 55, 0.6)",
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       },
       keyframes: {
         "accordion-down": {
