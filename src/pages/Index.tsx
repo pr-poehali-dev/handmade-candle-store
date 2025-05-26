@@ -1,17 +1,24 @@
 import React from "react";
-import CandleSilhouettes from "@/components/CandleSilhouettes";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-burgundy-deep via-burgundy-main to-burgundy-dark relative">
-      {/* Candle silhouettes background */}
-      <CandleSilhouettes />
+    <div className="min-h-screen bg-gradient-to-br from-burgundy-deep via-burgundy-main to-burgundy-dark relative overflow-hidden">
+      {/* Premium background elements */}
+      <div className="absolute inset-0">
+        {/* Elegant geometric pattern overlay */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-gold-main/20 to-transparent rounded-full blur-3xl"></div>
+          <div className="absolute top-1/3 right-0 w-80 h-80 bg-gradient-to-bl from-gold-main/15 to-transparent rounded-full blur-2xl"></div>
+          <div className="absolute bottom-0 left-1/4 w-64 h-64 bg-gradient-to-tr from-gold-main/10 to-transparent rounded-full blur-xl"></div>
+        </div>
+
+        {/* Luxury texture overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/3 to-black/8"></div>
+        <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-burgundy-deep/20"></div>
+      </div>
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex flex-col items-center justify-center px-6">
-        {/* Elegant background texture overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/5 to-black/10"></div>
-
         {/* Main Content */}
         <div className="relative z-10 text-center max-w-4xl mx-auto">
           {/* Premium Logo */}
