@@ -1,8 +1,12 @@
 import React from "react";
+import CandleSilhouettes from "@/components/CandleSilhouettes";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-burgundy-deep via-burgundy-main to-burgundy-dark">
+    <div className="min-h-screen bg-gradient-to-br from-burgundy-deep via-burgundy-main to-burgundy-dark relative">
+      {/* Candle silhouettes background */}
+      <CandleSilhouettes />
+
       {/* Hero Section */}
       <section className="relative min-h-screen flex flex-col items-center justify-center px-6">
         {/* Elegant background texture overlay */}
